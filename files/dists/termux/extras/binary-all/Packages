@@ -1,0 +1,38 @@
+Package: pacvim
+Version: 2019.5.22
+Depends: ncurses,ncurses-dev
+Architecture: all
+Maintainer: jmoon018 https://github.com/jmoon018
+Description: a game to help learn vim
+Filename: dists/termux/extras/binary-all/pacvim_2019.05.28_all.deb
+Size: 96712
+MD5Sum: 43fc6d3971254913f1fd03b0c93edbb3
+SHA1: 458c6ef5dc14a91045ad7755d2c69f333de243f6
+SHA256: 1ffbc371975883e74b1b8d1fe1f9d330834c1ce35b0d27efe003e52edf4d6410
+SHA512: 4752005136f0a5c438436958665bb3e4bba1c445736475466f61ef7585d68e2225f7a9e23ce81dbc78fd53c0f47912b63453b660a3755f7d99eb1bc80df55c2f
+
+Package: spark
+Version: 2019.05.28
+Maintainer: holmam zach@zachholman.com
+Description: See? Here's a graph of your productivity gains after using spark: ▁▂▃▅▇
+Architecture: all
+Filename: dists/termux/extras/binary-all/spark_2019.05.28_all.deb
+Size: 1888
+MD5Sum: e58400579ac3a43b046be99519f14946
+SHA1: adeb4a7cb99801ad8d01fe9cad347a76a5a172d1
+SHA256: 23f2063adbe4a290eca50f92240f5b2dab875356868a56c8e4e1e497ece16908
+SHA512: fc9a55aad529a055a7bea7c04f1bb81ae21445983ca48b93c8d24f9552d9e8e103609aeee98b56c11b08db5d4524fd28bf5fe718d35b0cf1ceeae79364eb20fb
+
+Package: sqlmap
+Version: 1.3.5.147
+Depends: python
+Architecture: all
+Maintainer: sqlmapproject dev@sqlmap.org
+Description: sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers.
+Filename: dists/termux/extras/binary-all/sqlmap_1.3.5.147_all.deb
+Size: 73631648
+MD5Sum: e04171ce178d3082d0ecf7d6fcc60e35
+SHA1: ea9df541efa37a9f2e3f30e849e531d1a3deb2fb
+SHA256: 28e16ddb30553ef179e8e459f57a2350596ab621c3c86c613e4cb1ef08d399b4
+SHA512: a90c7847c6936d72fe48a11582b917f32980d73fa5d48837c31cadcd1b3cf2d7e5e6e46fa21543ee786a6f0e7a2ff3a14546ba2101099877f133aaacf7f85c6f
+

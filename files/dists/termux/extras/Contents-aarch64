@@ -1,15 +1,3 @@
-data/data/com.termux/files/usr/bin/pacvim                                        pacvim
-data/data/com.termux/files/usr/share/pacvim-maps/map0.txt                        pacvim
-data/data/com.termux/files/usr/share/pacvim-maps/map1.txt                        pacvim
-data/data/com.termux/files/usr/share/pacvim-maps/map10.txt                       pacvim
-data/data/com.termux/files/usr/share/pacvim-maps/map2.txt                        pacvim
-data/data/com.termux/files/usr/share/pacvim-maps/map3.txt                        pacvim
-data/data/com.termux/files/usr/share/pacvim-maps/map4.txt                        pacvim
-data/data/com.termux/files/usr/share/pacvim-maps/map5.txt                        pacvim
-data/data/com.termux/files/usr/share/pacvim-maps/map6.txt                        pacvim
-data/data/com.termux/files/usr/share/pacvim-maps/map7.txt                        pacvim
-data/data/com.termux/files/usr/share/pacvim-maps/map8.txt                        pacvim
-data/data/com.termux/files/usr/share/pacvim-maps/map9.txt                        pacvim
 data/data/com.termux/files/usr/bin/cygdb                                         cython
 data/data/com.termux/files/usr/bin/cython                                        cython
 data/data/com.termux/files/usr/bin/cythonize                                     cython

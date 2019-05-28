@@ -1,40 +1,27 @@
-Package: pacvim
-Version: 2019.5.22
-Depends: ncurses,ncurses-dev
-Architecture: aarch64
-Maintainer: nidhoggfgg 1648237021@qq.com
-Description: a game to help learn vim
-Filename: dists/termux/extras/binary-aarch64/pacvim.deb
-Size: 96260
-MD5Sum: 15ed47527e1227a92fdc6bf2ffa67e5e
-SHA1: 5703dc5f4c3c915e796acaacee1852feffb9ce9d
-SHA256: 80c030127e480068eed5f098eb472fbe43deb7282de40e2ffec848ab3532a6a4
-SHA512: 7bfaca99f1ceeb7564d32fc0c8c0cc2225be479ad8ce1b7537f7bff6dd8821e3ff4e654298f5db46bf16aae9d1e19d9d02d4671852085d61a162daf398acb7d6
-
 Package: cython
 Version: 0.29.7
 Architecture: aarch64
-Maintainer: nidhoggfgg 1648237021@qq.com
+Maintainer: cython http://cython.org
 Description: the cython for python3
 Filename: dists/termux/extras/binary-aarch64/python-cython_0.29.7_aarch64.deb
-Size: 2596916
-MD5Sum: e243488584f83ccfd520f730a2bd693d
-SHA1: 463341409bf2e1b421c376a27afb6590aa5020aa
-SHA256: df27fbb6697b14f2ed70953aa99678df007ba5770280e76338c3014aaaf3411a
-SHA512: 991f96d293d6bb7d40b46fdc42e88e6f9846d7925d76ce98c58b3b3b3845c292119d88048b8272c9204e0ae31b2ab868e3434154ab5600c269af86c3dc6b75fd
+Size: 2596832
+MD5Sum: 4f072ba51f068f7c2f0e15295a3b52e6
+SHA1: 3de019ad8aaee5b676920ed0b92f2ff4d8b9d81c
+SHA256: 16d3d4c3898e56dcefe7efd85d05c539bd4e9240bf55d4bdf63e49cee60dae6a
+SHA512: 76f248298504aa7ef0acdc41d0f3339935770b296ce2a3ea9179502246a42bb4479309c34e92691d6b7cf9ba8342d43c4b990a56c24fdeb3aac35ba84d6e370c
 
 Package: lxml
 Version: 4.3.3
 Depends: python,python-dev,libxml2,libxml2-dev,libxslt,libxslt-dev,libiconv,libiconv-dev
 Architecture: aarch64
-Maintainer: nidhoggfgg 1648237021@qq.com
+Maintainer: lxml https://github.com/lxmlm
 Description: the lxml for python3
 Filename: dists/termux/extras/binary-aarch64/python-lxml_4.3.3_aarch64.deb
-Size: 2356212
-MD5Sum: 884e02960acfc86ec5d543bed86ea17f
-SHA1: 6adb5c737239c7883cbc826bf6f0c7c71d0d7965
-SHA256: ea106c3c19ff6ad83fe57d61bd49d44cbecd0a44269ceb231bf9d99977ba8297
-SHA512: 5e4c7e7539e6d2a4f1a6fb654dde50df533a0b405a12d115cf6d91b1d3f2a2afc322ce7c3e0d69578cdaa048c1730250779acd8331998d2047093302667c8b1b
+Size: 2358272
+MD5Sum: 25bbac87bef7b1534c52585d7c90c73f
+SHA1: 0b425c7e33adfd35bf5cebcc32511264716d60a5
+SHA256: 50e9c5f2778dd58bdfb80311a0bd79075b8b48e917f43efe38e0734c01cc249a
+SHA512: a8fcfab1910f5dc2000ba819641a032ababdde73decbf321b5ff18867004275ae63e266c52f996e6622404ddc93e7f16d21e2aac9321c302f22a5949d683f360
 
 Package: numpy
 Architecture: aarch64
@@ -55,14 +42,14 @@ Package: pillow
 Version: 6.0.0
 Depends: python,python-dev,ndk-sysroot,libjpeg-turbo-dev
 Architecture: aarch64
-Maintainer: nidhoggfgg 1648237021@qq.com
+Maintainer: python-pillow aclark@python-pillow.org
 Description: the pillow for python3
 Filename: dists/termux/extras/binary-aarch64/python-pillow_6.0.0_aarch64.deb
-Size: 630016
-MD5Sum: 47b351430aac4e4302d290c0fca2aa7d
-SHA1: fb9e4cdedc0dcb154d6ac8adf8ea32bc3002cbf4
-SHA256: a83c9b4e0fc9278eab611b121fd3b0083631007e273f0cd4485fcf695144ad68
-SHA512: 0352f8b4d9b78c2a0b003775c2fd37801a75f612e05b706bd1c4e0fc1f7eabdfe8c170a3ba9528d55e3cc9788eca428f191e5884bb9ac88dcb8213bf1ae7ae47
+Size: 629700
+MD5Sum: 06121c8c014bd9d69e92530b7da7c19f
+SHA1: 7f1735101ace5241dd16104f2e1988a59516d9e2
+SHA256: b891fdfd778d05b75e49fd369aa8e1aa8fa6004cdf16607be482fb22634d6a24
+SHA512: dd14b6f1f6bc99c8d7d86c466a33fb249a88c4e4bc4bd22babbb00982771a195cbcf11b10e8cd8bddbcf622e86c1092088d5566f75e418c997a7c0d10490e51a
 
 Package: scipy
 Architecture: aarch64
