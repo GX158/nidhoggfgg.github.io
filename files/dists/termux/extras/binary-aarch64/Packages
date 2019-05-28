@@ -1,27 +1,40 @@
+Package: pacvim
+Version: 2019.5.22
+Depends: ncurses,ncurses-dev
+Architecture: aarch64
+Maintainer: nidhoggfgg 1648237021@qq.com
+Description: a game to help learn vim
+Filename: dists/termux/extras/binary-aarch64/pacvim.deb
+Size: 96260
+MD5Sum: 15ed47527e1227a92fdc6bf2ffa67e5e
+SHA1: 5703dc5f4c3c915e796acaacee1852feffb9ce9d
+SHA256: 80c030127e480068eed5f098eb472fbe43deb7282de40e2ffec848ab3532a6a4
+SHA512: 7bfaca99f1ceeb7564d32fc0c8c0cc2225be479ad8ce1b7537f7bff6dd8821e3ff4e654298f5db46bf16aae9d1e19d9d02d4671852085d61a162daf398acb7d6
+
 Package: cython
 Version: 0.29.7
 Architecture: aarch64
 Maintainer: nidhoggfgg 1648237021@qq.com
 Description: the cython for python3
-Filename: dists/termux/extras/binary-aarch64/cython.deb
-Size: 2567292
-MD5Sum: 796747b992fa9ae0970255e3f5e58d3c
-SHA1: dd7f1432790abeb5778e894f56aac5f773d0be0d
-SHA256: 235db7e072606cf12ced54ae526fb83f05c774fb13dbd9f7d6dc8db52b13416d
-SHA512: 0ed31c04e040cdba529d3dc5c37890e160fde1559d1fcdaf341d86060a9fae837e3227a2b4b697b3153e1e5a24d3bd7136b8dae62b593ec853aa90d640d62b92
+Filename: dists/termux/extras/binary-aarch64/python-cython_0.29.7_aarch64.deb
+Size: 2596916
+MD5Sum: e243488584f83ccfd520f730a2bd693d
+SHA1: 463341409bf2e1b421c376a27afb6590aa5020aa
+SHA256: df27fbb6697b14f2ed70953aa99678df007ba5770280e76338c3014aaaf3411a
+SHA512: 991f96d293d6bb7d40b46fdc42e88e6f9846d7925d76ce98c58b3b3b3845c292119d88048b8272c9204e0ae31b2ab868e3434154ab5600c269af86c3dc6b75fd
 
 Package: lxml
 Version: 4.3.3
-Depends: python,python-dev,libxml2,libxml2-dev,libxslt,libxslt-dev
+Depends: python,python-dev,libxml2,libxml2-dev,libxslt,libxslt-dev,libiconv,libiconv-dev
 Architecture: aarch64
 Maintainer: nidhoggfgg 1648237021@qq.com
 Description: the lxml for python3
-Filename: dists/termux/extras/binary-aarch64/lxml.deb
-Size: 2356788
-MD5Sum: ff6fc8546758128f703b2258bcb312a0
-SHA1: 0d4bee2f952acf45e543926913111adaf00345e5
-SHA256: c9664a63cc89e08041da0d74919d86fe9b87446fa34647ae5a9fca2a0dc17a1c
-SHA512: b608405fc6d78dc5f11eed011c232d5066ca4fdf31effa074a21a06fe737c84657133c1e5f07edbfff3b40b135f9911c62833eb3ee7e28c5dfc60e793400b897
+Filename: dists/termux/extras/binary-aarch64/python-lxml_4.3.3_aarch64.deb
+Size: 2356212
+MD5Sum: 884e02960acfc86ec5d543bed86ea17f
+SHA1: 6adb5c737239c7883cbc826bf6f0c7c71d0d7965
+SHA256: ea106c3c19ff6ad83fe57d61bd49d44cbecd0a44269ceb231bf9d99977ba8297
+SHA512: 5e4c7e7539e6d2a4f1a6fb654dde50df533a0b405a12d115cf6d91b1d3f2a2afc322ce7c3e0d69578cdaa048c1730250779acd8331998d2047093302667c8b1b
 
 Package: numpy
 Architecture: aarch64
@@ -31,7 +44,7 @@ Version: 1.16.3
 Homepage: http://www.numpy.org/
 Depends: openblas, python-dev, libcrypt-dev
 Description: NumPy is the fundamental package for scientific computing with Python.
-Filename: dists/termux/extras/binary-aarch64/numpy_1.16.3_aarch64.deb
+Filename: dists/termux/extras/binary-aarch64/python-numpy_1.16.3_aarch64.deb
 Size: 2397620
 MD5Sum: 80a9654910e7b700c0c22400a8783716
 SHA1: 777953dec9d9b427e21dbbea07b389db6951f014
@@ -44,7 +57,7 @@ Depends: python,python-dev,ndk-sysroot,libjpeg-turbo-dev
 Architecture: aarch64
 Maintainer: nidhoggfgg 1648237021@qq.com
 Description: the pillow for python3
-Filename: dists/termux/extras/binary-aarch64/pillow.deb
+Filename: dists/termux/extras/binary-aarch64/python-pillow_6.0.0_aarch64.deb
 Size: 630016
 MD5Sum: 47b351430aac4e4302d290c0fca2aa7d
 SHA1: fb9e4cdedc0dcb154d6ac8adf8ea32bc3002cbf4
@@ -59,7 +72,7 @@ Version: 1.3.0
 Homepage: https://scipy.org/scipylib
 Depends: numpy
 Description: SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
-Filename: dists/termux/extras/binary-aarch64/scipy_1.3.0_aarch64.deb
+Filename: dists/termux/extras/binary-aarch64/python-scipy_1.3.0_aarch64.deb
 Size: 10513498
 MD5Sum: dda65e7e936ac0902c353d7710672abc
 SHA1: 67fc66b99f84d1e4ba280216caa21cafa4a500ba
