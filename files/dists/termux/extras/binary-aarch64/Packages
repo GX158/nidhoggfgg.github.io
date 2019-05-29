@@ -1,3 +1,92 @@
+Package: bastet
+Architecture: aarch64
+Installed-Size: 200
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.43.2-4
+Homepage: http://fph.altervista.org/prog/bastet.html
+Depends: boost, ncurses
+Description: bastard tetris
+Filename: dists/termux/extras/binary-aarch64/bastet_0.43.2-4_aarch64.deb
+Size: 55978
+MD5Sum: 3f8cdcd7801e02d3734cabf3a9e24af4
+SHA1: 6053a74b7bc6111ee2ea83ada5dc9e4d0bf847c9
+SHA256: 7a0324f94a4e9c01ab191c6254c3653da95904fffb31e3b60375c137689fd701
+SHA512: 7325981e62bc8d6e80cc0a05f28ca77ee8d67886d408efe8d5be0d07f72195e4795d6cb65b031074357a964a85f799e03bc4e0d6a6e40bfedb89e5ec57625fcd
+
+Package: libgcrypt
+Architecture: aarch64
+Installed-Size: 740
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.4
+Description: General purpose cryptographic library based on the code from GnuPG
+Homepage: https://www.gnu.org/software/libgcrypt/
+Depends: libgpg-error
+Filename: dists/termux/extras/binary-aarch64/libgcrypt_1.8.4_aarch64.deb
+Size: 272168
+MD5Sum: aec23d9e4fbe25d90855d4e8440d4283
+SHA1: 897ebb0d2de3a75549ac49663dbbc7ce73a46078
+SHA256: 634d16bf0087e9bc2ba6e84359730147d0ad8340f13ed1d5b7f5640bdf763c79
+SHA512: 29d8fdee72feaac03d03855432ec5a8578006af96a8805f1014b27a4000dafdd6be39cff946e5c2c96cdcfe5418242efed2e755922719b6641d17254606d8317
+
+Package: libgfortran5
+Architecture: aarch64
+Installed-Size: 1092
+Maintainer: @its-pointless github
+Version: 8.3.0-3
+Homepage: http://gcc.gnu.org/
+Replaces: libgfortran4
+Description: dynamic library for fortran
+Filename: dists/termux/extras/binary-aarch64/libgfortran5_8.3.0-3_aarch64.deb
+Size: 218802
+MD5Sum: 17a2ff7889688e4828b9a6cf505f9796
+SHA1: 49cb6187e47d34fa7e4cc2b50644b2d3e49b981c
+SHA256: a3aea33636c25f6ccc5a22b509621d60585ba9e8e70772c62aced3eca37e16a6
+SHA512: dc2fb07c99447d5a0403f8730c736310f408b11262b781c113057e197889906f5be533606b9ccef82254da487cd4b935cb3a8e9fac0f0882de19057c8267a0a4
+
+Package: nethack
+Architecture: aarch64
+Installed-Size: 3852
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.6.1
+Description: Dungeon crawl game
+Homepage: http://www.nethack.org/
+Depends: ncurses
+Filename: dists/termux/extras/binary-aarch64/nethack_3.6.1_aarch64.deb
+Size: 1230976
+MD5Sum: fc8fdb36586697eb254e3e94761052f3
+SHA1: 071881ed2f99fb7bf7fa9e3514307eac55ce5480
+SHA256: a2e3d341b9ead9f2ad1c7b5a4ee78be54545516783bf3c3da2e499f7c67597bd
+SHA512: e24f609755f29a43ecf52fa750f7b1b573f611ecbf550d8eeddc5e0eddb2eea5aaab964237316bb89beb6a3c85dc70963ce99a92a6db40d63345fca927f7ae11
+
+Package: nsnake
+Architecture: aarch64
+Installed-Size: 472
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.1-1
+Description: The classic snake game with textual interface 
+Homepage: https://github.com/alexdantas/nSnake
+Filename: dists/termux/extras/binary-aarch64/nsnake_3.0.1-1_aarch64.deb
+Size: 83624
+MD5Sum: 1ac9ed8ccc5b5301a1de7a71c61fc54a
+SHA1: f5e17083a2226e5c04cbb3796c879383b8c09b12
+SHA256: ffcf544e5baa1f1770b795de7a65277823bf44c876ec3fc7d63b605ddcc0d9c9
+SHA512: e785b06da353edb643fd10c59bdb89e78ff4cf2a2a3ed18aa023e9314a191c6f92c6cddba82b01a73da3e859dc0802de5c697b5b050abb618d29d8b42ffd177b
+
+Package: openblas
+Architecture: aarch64
+Installed-Size: 10864
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.3.6
+Homepage: http://github.com/xianyi/OpenBLAS
+Depends: libgfortran5
+Description:  Optimized BLAS (linear algebra) library
+Filename: dists/termux/extras/binary-aarch64/openblas_0.3.6_aarch64.deb
+Size: 2102092
+MD5Sum: bf5fcaa76f15f703e2c0399110267c24
+SHA1: 018449c23afabba1eef664b8db5da0de55c75b84
+SHA256: 10b15095b8776db125d3a5ec6de48ee97c437b9be15b6f8b9fc34f169a5ab702
+SHA512: a8d49104d361c1fb272ee73fe04d15e65a5ea174876827b4aaba02ec8056eb2652d04a4096ca668ae729429f267c8dff2c34cd5a3c3e85b20acc6cec429224a5
+
 Package: cython
 Version: 0.29.7
 Architecture: aarch64
